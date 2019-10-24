@@ -1,0 +1,23 @@
+     	
+	table tr>td{
+	    text-align: right;
+	}
+	table tr>th{
+	    text-align: left;
+	}
+   th> input[type='text'],td > input[type='text']{
+	   height: 22px;
+	}
+	
+  .serchbox{
+	 padding: 10;
+	 border:1px solid #BFD2E1;
+	}
+   .serchbox legend{
+	  font-size:15px;
+	  color: red;
+	}
+	
+	.table-c {border-right:1px solid #BFD2E1;border-bottom:1px solid #BFD2E1}
+    .table-c tr[name='tr']> td,.table-c tr> th{border-left:1px solid #BFD2E1;border-top:1px solid #BFD2E1}
+    

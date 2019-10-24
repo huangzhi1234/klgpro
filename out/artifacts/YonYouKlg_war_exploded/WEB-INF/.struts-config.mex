@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/opusInfo.do" location="312,1398" dimension="362,104" />
+  <StrutsActivity path="/company.do" location="1737,0" dimension="362,104" />
+  <StrutsActivity path="/order.do" location="364,1096" dimension="362,104" />
+  <StrutsActivity path="/assure.do" location="1012,2002" dimension="362,104" />
+  <StrutsActivity path="/custTab.do" location="7,412" dimension="362,104" />
+  <StrutsActivity path="/dataDic.do" location="576,794" dimension="362,104" />
+  <StrutsActivity path="/userTab.do" location="1428,412" dimension="362,104" />
+  <StrutsActivity path="/custInsureValue.do" location="1550,850" dimension="362,104" />
+  <StrutsActivity path="/insureTab.do" location="586,2002" dimension="362,104" />
+  <StrutsActivity path="/talking.do" location="50,150" dimension="362,104" />
+  <StrutsActivity path="/productindexsTab.do" location="80,2002" dimension="362,104" />
+  <StrutsActivity path="/firstindexsTab.do" location="808,1700" dimension="362,104" />
+  <StrutsActivity path="/secondindexsTab.do" location="1198,1398" dimension="362,104" />
+  <StrutsActivity path="/weixinMenuTab.do" location="1419,2002" dimension="362,104" />
+  <StrutsActivity path="/weixinUrlTab.do" location="0,2304" dimension="362,104" />
+  <StrutsActivity path="/expertRemarkInfoTab.do" location="139,1700" dimension="362,104" />
+  <StrutsActivity path="/expertSugestInfoTab.do" location="1471,1700" dimension="362,104" />
+  <StrutsActivity path="/insureRateTab.do" location="1550,1050" dimension="362,104" />
+  <StrutsActivity path="/view.do" location="2150,1050" dimension="362,104" />
+  <StrutsActivity path="/jsp/opus/viewOpus.jsp" location="0,1602" dimension="169,53" />
+  <StrutsActivity path="/jsp/opus/queryOpus.jsp" location="269,1602" dimension="177,53" />
+  <StrutsActivity path="/jsp/opus/addOpus.jsp" location="546,1602" dimension="167,53" />
+  <StrutsActivity path="/jsp/opus/updateOpus.jsp" location="813,1602" dimension="185,53" />
+  <StrutsActivity path="/jsp/company/updateCompany.jsp" location="0,314" dimension="233,53" />
+  <StrutsActivity path="/jsp/company/queryCompany.jsp" location="333,314" dimension="225,53" />
+  <StrutsActivity path="/jsp/company/addCompany.jsp" location="658,314" dimension="215,53" />
+  <StrutsActivity path="/jsp/company/updateAgent.jsp" location="973,314" dimension="212,53" />
+  <StrutsActivity path="/jsp/company/updateInsureIncome.jsp" location="1285,314" dimension="257,53" />
+  <StrutsActivity path="/jsp/company/queryInsureType.jsp" location="1642,314" dimension="234,53" />
+  <StrutsActivity path="/jsp/company/queryAgent.jsp" location="1976,314" dimension="204,53" />
+  <StrutsActivity path="/jsp/company/addAgent.jsp" location="2280,314" dimension="194,53" />
+  <StrutsActivity path="/jsp/company/addInsureIncome.jsp" location="2574,314" dimension="239,53" />
+  <StrutsActivity path="/jsp/company/queryInsureIncome.jsp" location="2913,314" dimension="249,53" />
+  <StrutsActivity path="/jsp/company/updateInsureType.jsp" location="3262,314" dimension="242,53" />
+  <StrutsActivity path="/jsp/company/addInsureType.jsp" location="3604,314" dimension="224,53" />
+  <StrutsActivity path="/jsp/insure/queryOrderList.jsp" location="0,1300" dimension="206,53" />
+  <StrutsActivity path="/jsp/insure/allotAngent.jsp" location="306,1300" dimension="185,53" />
+  <StrutsActivity path="/jsp/insure/insureInfoView.jsp" location="591,1300" dimension="204,53" />
+  <StrutsActivity path="/jsp/insure/showOrderAllInfo.jsp" location="895,1300" dimension="221,53" />
+  <StrutsActivity path="/jsp/insure/queryAssureList.jsp" location="1088,2206" dimension="210,53" />
+  <StrutsActivity path="/jsp/cust/queryCustInfo.jsp" location="0,696" dimension="188,53" />
+  <StrutsActivity path="/admin/addUser.jsp" location="288,696" dimension="148,53" />
+  <StrutsActivity path="/jsp/cust/showFamilyMember.jsp" location="1850,450" dimension="223,53" />
+  <StrutsActivity path="/jsp/common/addChildDataDic.jsp" location="0,998" dimension="232,53" />
+  <StrutsActivity path="/jsp/common/queryChildDic.jsp" location="332,998" dimension="215,53" />
+  <StrutsActivity path="/jsp/cust/queryTargetQuestion.jsp" location="2450,450" dimension="230,53" />
+  <StrutsActivity path="/jsp/cust/addTargetQuestion.jsp" location="50,850" dimension="220,53" />
+  <StrutsActivity path="/jsp/common/updateDataDic.jsp" location="647,998" dimension="221,53" />
+  <StrutsActivity path="/jsp/common/queryDataDic.jsp" location="968,998" dimension="213,53" />
+  <StrutsActivity path="/jsp/common/addDataDic.jsp" location="1281,998" dimension="203,53" />
+  <StrutsActivity path="/jsp/common/updateRole.jsp" location="536,696" dimension="202,53" />
+  <StrutsActivity path="/jsp/common/addMoudle.jsp" location="838,696" dimension="203,53" />
+  <StrutsActivity path="/login.jsp" location="1141,696" dimension="86,53" />
+  <StrutsActivity path="/main.jsp" location="1327,696" dimension="85,53" />
+  <StrutsActivity path="/jsp/common/queryRole.jsp" location="1512,696" dimension="194,53" />
+  <StrutsActivity path="/jsp/common/addRole.jsp" location="1806,696" dimension="184,53" />
+  <StrutsActivity path="/jsp/common/updateMoudle.jsp" location="2090,696" dimension="221,53" />
+  <StrutsActivity path="/admin/updateUser.jsp" location="2411,696" dimension="166,53" />
+  <StrutsActivity path="/admin/queryUser.jsp" location="2677,696" dimension="158,53" />
+  <StrutsActivity path="/jsp/common/queryMoudle.jsp" location="2935,696" dimension="213,53" />
+  <StrutsActivity path="/jsp/cust/queryCustInsureValue.jsp" location="650,550" dimension="233,53" />
+  <StrutsActivity path="/jsp/cust/updateCustInsureValue.jsp" location="950,550" dimension="241,53" />
+  <StrutsActivity path="/jsp/cust/addCustInsureValue.jsp" location="1850,1450" dimension="223,53" />
+  <StrutsActivity path="/jsp/insure/queryList.jsp" location="554,2206" dimension="171,53" />
+  <StrutsActivity path="/jsp/insure/add.jsp" location="825,2206" dimension="142,53" />
+  <StrutsActivity path="/jsp/view/showTalkInfo.jsp" location="1250,850" dimension="186,53" />
+  <StrutsActivity path="/jsp/view/queryList.jsp" location="1250,1150" dimension="161,53" />
+  <StrutsActivity path="/jsp/view/add.jsp" location="1550,1250" dimension="132,53" />
+  <StrutsActivity path="/jsp/productindexs/queryList.jsp" location="0,2206" dimension="219,53" />
+  <StrutsActivity path="/jsp/productindexs/add.jsp" location="319,2206" dimension="190,53" />
+  <StrutsActivity path="/jsp/productindexs/queryFirstIndexList.jsp" location="672,1904" dimension="275,53" />
+  <StrutsActivity path="/jsp/productindexs/addFirstIndex.jsp" location="1047,1904" dimension="246,53" />
+  <StrutsActivity path="/jsp/productindexs/querySecondIndexList.jsp" location="1043,1602" dimension="294,53" />
+  <StrutsActivity path="/jsp/productindexs/addSecondIndex.jsp" location="1437,1602" dimension="265,53" />
+  <StrutsActivity path="/jsp/weixin/add.jsp" location="1529,2206" dimension="142,53" />
+  <StrutsActivity path="/view/needs-assessment/index.jsp" location="66,2508" dimension="230,53" />
+  <StrutsActivity path="/jsp/expert/queryExpertRemarkInfoList.jsp" location="0,1904" dimension="278,53" />
+  <StrutsActivity path="/jsp/expert/addExpertRemarkInfo.jsp" location="378,1904" dimension="249,53" />
+  <StrutsActivity path="/jsp/expert/queryExpertSugestInfoList.jsp" location="1338,1904" dimension="272,53" />
+  <StrutsActivity path="/jsp/expert/addExpertSugestInfo.jsp" location="1710,1904" dimension="243,53" />
+  <StrutsActivity path="/jsp/insure/queryInsureRateList.jsp" location="2150,1850" dimension="233,53" />
+  <StrutsActivity path="/jsp/insure/addInsureRate.jsp" location="1850,2050" dimension="204,53" />
+  <StrutsActivity path="/jsp/view/queryNews.jsp" location="2150,2050" dimension="174,53" />
+  <StrutsActivity path="/jsp/view/addQuestion.jsp" location="950,1450" dimension="184,53" />
+  <StrutsActivity path="/jsp/view/updataTalkingEvaluate.jsp" location="2150,1450" dimension="240,53" />
+  <StrutsActivity path="/jsp/view/addNote.jsp" location="2450,1450" dimension="161,53" />
+  <StrutsActivity path="/jsp/view/queryLabel.jsp" location="2150,1650" dimension="173,53" />
+  <StrutsActivity path="/jsp/view/queryTalkingEvaluate.jsp" location="2450,1650" dimension="232,53" />
+  <StrutsActivity path="/jsp/view/addNews.jsp" location="2450,850" dimension="164,53" />
+  <StrutsActivity path="/jsp/view/queryNote.jsp" location="950,1150" dimension="171,53" />
+  <StrutsActivity path="/jsp/view/updataQuestion.jsp" location="2450,1850" dimension="202,53" />
+  <StrutsActivity path="/jsp/view/addLabel.jsp" location="2450,2050" dimension="163,53" />
+  <StrutsActivity path="/jsp/view/queryQuestion.jsp" location="1850,2250" dimension="194,53" />
+  <StrutsActivity path="/jsp/view/updataNews.jsp" location="50,1150" dimension="182,53" />
+  <StrutsActivity path="/jsp/view/addTalkingEvaluate.jsp" location="2450,2250" dimension="222,53" />
+  <StrutsActivity path="/jsp/view/updataLabel.jsp" location="650,2350" dimension="181,53" />
+  <StrutsActivity path="/jsp/view/updataNote.jsp" location="950,2350" dimension="179,53" />
+  <StrutsActivity path="jsp/cust/addCustInsureValue.jsp" location="2150,550" dimension="218,53" />
+  <StrutsActivity path="/jsp/cust/querryCustInsureValue.jsp" location="2150,850" dimension="238,53" />
+  <StrutsTransition id="/talking.do,addJsp,/jsp/view/add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,202" />
+      <AbsolutePoint location="-75,202" />
+      <AbsolutePoint location="-75,1276" />
+      <AbsolutePoint location="1550,1276" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,addNewsJsp,/jsp/view/addNews.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2497,1050" />
+      <AbsolutePoint location="2497,903" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userTab.do,toLogin,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1428,494" />
+      <AbsolutePoint location="1206,494" />
+      <AbsolutePoint location="1206,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/insureTab.do,queryListJsp,/jsp/insure/queryList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="639,2106" />
+      <AbsolutePoint location="639,2206" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,addInsureTypeJsp,/jsp/company/addInsureType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1948,0" />
+      <AbsolutePoint location="1948,-45" />
+      <AbsolutePoint location="3716,-45" />
+      <AbsolutePoint location="3716,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dataDic.do,querychildDicJsp,/jsp/common/queryChildDic.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="576,865" />
+      <AbsolutePoint location="451,865" />
+      <AbsolutePoint location="451,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/firstindexsTab.do,addJsp,/jsp/productindexs/addFirstIndex.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1155,1804" />
+      <AbsolutePoint location="1155,1904" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,addNoteJsp,/jsp/view/addNote.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2497,1154" />
+      <AbsolutePoint location="2497,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userTab.do,querySingleMouldeJsp,/jsp/common/updateMoudle.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1790,435" />
+      <AbsolutePoint location="2135,435" />
+      <AbsolutePoint location="2135,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,addLabelJsp,/jsp/view/addLabel.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2512,1072" />
+      <AbsolutePoint location="3397,1072" />
+      <AbsolutePoint location="3397,2076" />
+      <AbsolutePoint location="2613,2076" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expertRemarkInfoTab.do,queryListJsp,/jsp/expert/queryExpertRemarkInfoList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="154,1804" />
+      <AbsolutePoint location="154,1904" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userTab.do,queryListUserTab,/admin/queryUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1609,516" />
+      <AbsolutePoint location="1609,678" />
+      <AbsolutePoint location="2756,678" />
+      <AbsolutePoint location="2756,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dataDic.do,addTargetQuestionpage,/jsp/cust/addTargetQuestion.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="576,835" />
+      <AbsolutePoint location="160,835" />
+      <AbsolutePoint location="160,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,queryTalkingEvaluateJsp,/jsp/view/queryTalkingEvaluate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2512,1132" />
+      <AbsolutePoint location="2629,1132" />
+      <AbsolutePoint location="2629,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/order.do,queryListJsp,/jsp/insure/queryOrderList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="364,1135" />
+      <AbsolutePoint location="35,1135" />
+      <AbsolutePoint location="35,1300" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/insureTab.do,addJsp,/jsp/insure/add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="896,2106" />
+      <AbsolutePoint location="896,2206" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/productindexsTab.do,addJsp,/jsp/productindexs/add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="414,2106" />
+      <AbsolutePoint location="414,2206" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/opusInfo.do,queryListOpusInfoJsp,/jsp/opus/queryOpus.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="357,1502" />
+      <AbsolutePoint location="357,1602" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/opusInfo.do,addOpusInfoJsp,/jsp/opus/addOpus.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="629,1502" />
+      <AbsolutePoint location="629,1602" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,updataNewsJsp,/jsp/view/updataNews.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2241,1154" />
+      <AbsolutePoint location="2241,1240" />
+      <AbsolutePoint location="141,1240" />
+      <AbsolutePoint location="141,1203" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dataDic.do,querySingleDataDicJsp,/jsp/common/updateDataDic.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="787,898" />
+      <AbsolutePoint location="787,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,queryNewsJsp,/jsp/view/queryNews.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2435,1154" />
+      <AbsolutePoint location="2435,2076" />
+      <AbsolutePoint location="2324,2076" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dataDic.do,toAddTargetQuestionpage,/jsp/cust/addTargetQuestion.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="757,898" />
+      <AbsolutePoint location="757,918" />
+      <AbsolutePoint location="160,918" />
+      <AbsolutePoint location="160,903" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/custTab.do,queryCustInfoListJsp,/jsp/cust/queryCustInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="94,516" />
+      <AbsolutePoint location="94,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/opusInfo.do,querySingleOpusInfoJsp,/jsp/opus/updateOpus.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="674,1435" />
+      <AbsolutePoint location="910,1435" />
+      <AbsolutePoint location="910,1602" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,updataQuestionJsp,/jsp/view/updataQuestion.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2512,1102" />
+      <AbsolutePoint location="3040,1102" />
+      <AbsolutePoint location="3040,1876" />
+      <AbsolutePoint location="2652,1876" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userTab.do,querySingleRole,/jsp/common/updateRole.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1428,434" />
+      <AbsolutePoint location="635,434" />
+      <AbsolutePoint location="635,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expertSugestInfoTab.do,addJsp,/jsp/expert/addExpertSugestInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1818,1804" />
+      <AbsolutePoint location="1818,1904" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userTab.do,addUserTab,/admin/addUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1609,412" />
+      <AbsolutePoint location="1609,382" />
+      <AbsolutePoint location="384,382" />
+      <AbsolutePoint location="384,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/productindexsTab.do,queryListJsp,/jsp/productindexs/queryList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="109,2106" />
+      <AbsolutePoint location="109,2206" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,addInsureIncomeJsp,/jsp/company/addInsureIncome.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2099,52" />
+      <AbsolutePoint location="2693,52" />
+      <AbsolutePoint location="2693,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dataDic.do,addChildDataDicJsp,/jsp/common/addChildDataDic.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="576,805" />
+      <AbsolutePoint location="35,805" />
+      <AbsolutePoint location="35,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,updataLabelJsp,/jsp/view/updataLabel.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2383,1154" />
+      <AbsolutePoint location="2383,1265" />
+      <AbsolutePoint location="3709,1265" />
+      <AbsolutePoint location="3709,2151" />
+      <AbsolutePoint location="740,2151" />
+      <AbsolutePoint location="740,2350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,querySingleAgent,/jsp/company/updateAgent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1918,0" />
+      <AbsolutePoint location="1918,-75" />
+      <AbsolutePoint location="1079,-75" />
+      <AbsolutePoint location="1079,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/custTab.do,queryfamilyMember,/jsp/cust/showFamilyMember.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="173,516" />
+      <AbsolutePoint location="173,648" />
+      <AbsolutePoint location="1961,648" />
+      <AbsolutePoint location="1961,503" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userTab.do,queryListMouldeJsp,/jsp/common/queryMoudle.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1639,516" />
+      <AbsolutePoint location="1639,618" />
+      <AbsolutePoint location="3041,618" />
+      <AbsolutePoint location="3041,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/assure.do,queryListJsp,/jsp/insure/queryAssureList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1193,2106" />
+      <AbsolutePoint location="1193,2206" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,updateInsureTypeJsp,/jsp/company/updateInsureType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1948,104" />
+      <AbsolutePoint location="1948,269" />
+      <AbsolutePoint location="3383,269" />
+      <AbsolutePoint location="3383,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/talking.do,toView,/jsp/view/showTalkInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="412,195" />
+      <AbsolutePoint location="1270,195" />
+      <AbsolutePoint location="1270,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,queryCompanyJsp,/jsp/company/queryCompany.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1737,52" />
+      <AbsolutePoint location="445,52" />
+      <AbsolutePoint location="445,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/secondindexsTab.do,addJsp,/jsp/productindexs/addSecondIndex.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1545,1502" />
+      <AbsolutePoint location="1545,1602" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/talking.do,queryListJsp,/jsp/view/queryList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="412,225" />
+      <AbsolutePoint location="2880,225" />
+      <AbsolutePoint location="2880,1176" />
+      <AbsolutePoint location="1411,1176" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/weixinUrlTab.do,A1001,/view/needs-assessment/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="181,2408" />
+      <AbsolutePoint location="181,2508" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dataDic.do,addDataDicJsp,/jsp/common/addDataDic.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="938,835" />
+      <AbsolutePoint location="1451,835" />
+      <AbsolutePoint location="1451,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dataDic.do,queryListDataDicJsp,/jsp/common/queryDataDic.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="938,865" />
+      <AbsolutePoint location="1074,865" />
+      <AbsolutePoint location="1074,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userTab.do,queryListRoleJsp,/jsp/common/queryRole.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1579,516" />
+      <AbsolutePoint location="1579,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,updateInsureIncomeJsp,/jsp/company/updateInsureIncome.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1918,104" />
+      <AbsolutePoint location="1918,195" />
+      <AbsolutePoint location="1413,195" />
+      <AbsolutePoint location="1413,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/order.do,showallorderinfo,/jsp/insure/showOrderAllInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="726,1135" />
+      <AbsolutePoint location="923,1135" />
+      <AbsolutePoint location="923,1300" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/firstindexsTab.do,queryListJsp,/jsp/productindexs/queryFirstIndexList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="823,1804" />
+      <AbsolutePoint location="823,1904" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,querySingleCompany,/jsp/company/updateCompany.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1737,22" />
+      <AbsolutePoint location="35,22" />
+      <AbsolutePoint location="35,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,queryAgentJsp,/jsp/company/queryAgent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2078,104" />
+      <AbsolutePoint location="2078,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/insureRateTab.do,addJsp,/jsp/insure/addInsureRate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1912,1102" />
+      <AbsolutePoint location="2135,1102" />
+      <AbsolutePoint location="2135,2076" />
+      <AbsolutePoint location="2054,2076" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/custInsureValue.do,updateCustInsureValueJsp,/jsp/cust/updateCustInsureValue.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1761,850" />
+      <AbsolutePoint location="1761,576" />
+      <AbsolutePoint location="1191,576" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,queryListInsureTypeJsp,/jsp/company/queryInsureType.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1759,104" />
+      <AbsolutePoint location="1759,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/custInsureValue.do,addCustInsureValueJsp,/jsp/cust/addCustInsureValue.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1912,888" />
+      <AbsolutePoint location="1961,888" />
+      <AbsolutePoint location="1961,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,addCompanyJsp,/jsp/company/addCompany.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1737,82" />
+      <AbsolutePoint location="765,82" />
+      <AbsolutePoint location="765,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,queryLabelJsp,/jsp/view/queryLabel.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2405,1154" />
+      <AbsolutePoint location="2405,1676" />
+      <AbsolutePoint location="2323,1676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expertRemarkInfoTab.do,addJsp,/jsp/expert/addExpertRemarkInfo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="486,1804" />
+      <AbsolutePoint location="486,1904" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userTab.do,addMouldeJsp,/jsp/common/addMoudle.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1428,464" />
+      <AbsolutePoint location="935,464" />
+      <AbsolutePoint location="935,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,addQuestionJsp,/jsp/view/addQuestion.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2271,1154" />
+      <AbsolutePoint location="2271,1368" />
+      <AbsolutePoint location="1042,1368" />
+      <AbsolutePoint location="1042,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/opusInfo.do,querySingleOpusViewJsp,/jsp/opus/viewOpus.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="312,1450" />
+      <AbsolutePoint location="84,1450" />
+      <AbsolutePoint location="84,1602" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,queryQuestionJsp,/jsp/view/queryQuestion.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2331,1050" />
+      <AbsolutePoint location="2331,969" />
+      <AbsolutePoint location="-45,969" />
+      <AbsolutePoint location="-45,2276" />
+      <AbsolutePoint location="1850,2276" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,queryListInsureIncomeJsp,/jsp/company/queryInsureIncome.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2099,22" />
+      <AbsolutePoint location="3037,22" />
+      <AbsolutePoint location="3037,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,addTalkingEvaluateJsp,/jsp/view/addTalkingEvaluate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2301,1154" />
+      <AbsolutePoint location="2301,1413" />
+      <AbsolutePoint location="2757,1413" />
+      <AbsolutePoint location="2757,2276" />
+      <AbsolutePoint location="2672,2276" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/expertSugestInfoTab.do,queryListJsp,/jsp/expert/queryExpertSugestInfoList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1486,1804" />
+      <AbsolutePoint location="1486,1904" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,updataNoteJsp,/jsp/view/updataNote.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2361,1154" />
+      <AbsolutePoint location="2361,1318" />
+      <AbsolutePoint location="2980,1318" />
+      <AbsolutePoint location="2980,2376" />
+      <AbsolutePoint location="1129,2376" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/weixinMenuTab.do,addJsp,/jsp/weixin/add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1600,2106" />
+      <AbsolutePoint location="1600,2206" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/company.do,addAgentJsp,/jsp/company/addAgent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2099,82" />
+      <AbsolutePoint location="2377,82" />
+      <AbsolutePoint location="2377,314" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dataDic.do,queryAllQuesionpage,/jsp/cust/queryTargetQuestion.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="938,805" />
+      <AbsolutePoint location="2592,805" />
+      <AbsolutePoint location="2592,503" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/insureRateTab.do,queryListJsp,/jsp/insure/queryInsureRateList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1912,1132" />
+      <AbsolutePoint location="2105,1132" />
+      <AbsolutePoint location="2105,1876" />
+      <AbsolutePoint location="2150,1876" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/custTab.do,addUserTab,/admin/addUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="354,516" />
+      <AbsolutePoint location="354,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userTab.do,querySingleUserTab,/admin/updateUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1669,516" />
+      <AbsolutePoint location="1669,531" />
+      <AbsolutePoint location="2494,531" />
+      <AbsolutePoint location="2494,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/custInsureValue.do,querryCustInsureValue,/jsp/cust/queryCustInsureValue.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1731,850" />
+      <AbsolutePoint location="1731,764" />
+      <AbsolutePoint location="766,764" />
+      <AbsolutePoint location="766,603" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userTab.do,toMain,/main.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1451,516" />
+      <AbsolutePoint location="1451,722" />
+      <AbsolutePoint location="1412,722" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/order.do,toAllotAngent,/jsp/insure/allotAngent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="398,1200" />
+      <AbsolutePoint location="398,1300" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/userTab.do,addRoleJsp,/jsp/common/addRole.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1790,465" />
+      <AbsolutePoint location="1835,465" />
+      <AbsolutePoint location="1835,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,updataTalkingEvaluateJsp,/jsp/view/updataTalkingEvaluate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2331,1154" />
+      <AbsolutePoint location="2331,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/order.do,queryInsureInfo,/jsp/insure/insureInfoView.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="693,1200" />
+      <AbsolutePoint location="693,1300" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/view.do,queryNoteJsp,/jsp/view/queryNote.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2211,1154" />
+      <AbsolutePoint location="2211,1218" />
+      <AbsolutePoint location="1035,1218" />
+      <AbsolutePoint location="1035,1203" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/secondindexsTab.do,queryListJsp,/jsp/productindexs/querySecondIndexList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1213,1502" />
+      <AbsolutePoint location="1213,1602" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

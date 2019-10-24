@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.ml-15{margin-left:15px;}
+.ml-50{margin-left:50px;}
+.ml-65{margin-left:65px;}
+.ml-100{margin-left:100px;}
+.ml-115{margin-left:115px;}
+.ml-180{margin-left:180px;}
+.ml-295{margin-left:295px;}
+.forminfo li label{width:115px;}
+#addWin .forminfo li label{width:180px;}

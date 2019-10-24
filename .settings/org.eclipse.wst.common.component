@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="YonYouKlg">
+        <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/srcBusi"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/srcBase"/>
+        <property name="java-output-path" value="/YonYouKlg/WebRoot/WEB-INF/classes"/>
+        <property name="context-root" value="YonYouKlg"/>
+        <property name="me-merge-utility-modules" value="true"/>
+        <property name="me-struts-base-pkg" value="com.yourcompany.struts"/>
+    </wb-module>
+</project-modules>

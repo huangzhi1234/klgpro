@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//WebRoot/WEB-INF/mgr/jsp/inc/head.jsp=UTF-8
+encoding//WebRoot/WEB-INF/mgr/jsp/inc/import.jsp=UTF-8
+encoding//WebRoot/view/account/my-message.html=UTF-8
+encoding//WebRoot/view/account/my-pingjia-go.html=UTF-8
+encoding//WebRoot/view/account/my-pingjia.html=UTF-8
+encoding//WebRoot/view/account/my-plan.html=UTF-8
+encoding//WebRoot/view/account/my-shoucang.html=UTF-8
+encoding//srcBase/conf/config.properties=UTF-8
+encoding//srcBusi/com/ibb/common/Send.java=UTF-8
+encoding//srcBusi/com/ibb/common/db/C3p0Manager.java=UTF-8
+encoding//srcBusi/com/ibb/dao/common/CommonDao.java=UTF-8
+encoding//srcBusi/com/ibb/model/projectMessage/ProFile.java=UTF-8
+encoding/<project>=UTF-8

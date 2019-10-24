@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.filebox{margin-top:5px;}
+.atn{
+	padding: 4px;
+	position: relative;
+  	top: 5px;
+	background: url(../images/btnbg.png) no-repeat;
+  	font-size: 14px;
+ 	font-weight: bold;
+  	color: #fff;
+  	cursor: pointer;
+  	border-radius: 8px;
+  	margin-right: 5px;	
+}
+.userstyle{
+	width: 28px;
+   	height: 18px;
+   	margin-top: 7px;
+}
